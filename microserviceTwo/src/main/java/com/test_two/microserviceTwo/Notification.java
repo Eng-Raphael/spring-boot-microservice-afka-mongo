@@ -12,6 +12,10 @@ public class Notification {
     public Notification() {
     }
 
+    public Notification(String message) {
+        this.message = message;
+    }
+
     public Notification(String id, String message) {
         this.id = id;
         this.message = message;
